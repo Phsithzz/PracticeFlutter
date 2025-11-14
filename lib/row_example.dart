@@ -19,10 +19,10 @@ class RowExample extends StatelessWidget {
         ),
         body: Container(
           // padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
+          // padding:EdgeInsets.symmetric(horizontal: 10),
           margin: EdgeInsets.all(10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-
             children: [
               const Center(
                 child: Text(
@@ -58,11 +58,9 @@ class RowExample extends StatelessWidget {
 
               const TextField(
                 obscureText: true,
-
                 decoration: InputDecoration(
                   hintText: "Password",
                   filled: true,
-
                   fillColor: Colors.white,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(10.0)),

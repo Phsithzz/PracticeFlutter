@@ -46,12 +46,7 @@ class TabPage extends StatelessWidget {
         ),
 
         body: TabBarView(
-          children: const [
-            SizedBox(height: 20),
-            HomeTab(),
-            PaymentTab(),
-            SettingTab(),
-          ],
+          children: const [HomeTab(), PaymentTab(), SettingTab()],
         ),
       ),
     );
