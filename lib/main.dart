@@ -11,9 +11,10 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_app/listview_generate_example.dart';
 // import 'package:flutter_app/gradient_color_example.dart';
 // import 'package:flutter_app/floating_and_navigation.dart';
-import 'package:flutter_app/curv_menu.dart';
+// import 'package:flutter_app/curv_menu.dart';
+import 'package:flutter_app/panda_food_example.dart';
 
 
 void main() {
-  runApp(const CurvMenu());
+  runApp(const PandaFoodExample());
 }
